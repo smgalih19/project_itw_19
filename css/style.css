@@ -1,0 +1,90 @@
+body{
+    background-color: black;
+}
+.jumbotron{
+    background-image: url(../img/jumbotron.png);
+    background-size: 100%;
+    position: relative;
+}
+.jumbotron .display-4{
+    font-size: 20px;
+}
+.jumbotron h1{
+    font-size: 40px;
+    margin-top: 170px;
+}
+.about h1{
+    font-size: 25px;
+    text-align: center;
+}
+.about p{
+    text-align: center;
+}
+
+.navbar-collapse{
+    text-align: center;
+    text-transform: uppercase;
+}
+.footer h5{
+    font-size: 15px;
+}
+.contact ul{
+    text-align: center;
+}
+
+/* jarak */
+.about{
+    padding: 100px 10px;
+}
+.galery{
+    padding: 10px 30px;
+}
+.services{
+    padding: 140px 20px;
+}
+.contact{
+    padding: 20px 20px;
+}
+
+
+/* Desktop Version */
+@media (min-width: 992px) {
+    .navbar-brand, .nav-link{
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0,0,0, 0.7);
+    }
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 10px;
+    }
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid white;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .jumbotron{
+        margin-top: -100px;
+        height: 757px;
+    }
+    .jumbotron .display-4{
+        font-size: 40px;
+    }
+    .about h1{
+        font-size: 33px;
+        text-align: left;
+    }
+    .about p{
+        font-size: 17px;
+        text-align: left;
+    }
+    .footer h5{
+        font-size: 20px;
+    }
+    .contact ul{
+        text-align: left;
+    }
+}
